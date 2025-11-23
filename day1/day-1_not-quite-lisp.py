@@ -1,3 +1,9 @@
+from pathlib import Path
+
+path = Path('day1_input.txt')
+puzzle_input = path.read_text()
+
+
 print("The total number of characters within the string are...")
 print(len(puzzle_input))
 
